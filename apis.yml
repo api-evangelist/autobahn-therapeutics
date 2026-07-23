@@ -1,8 +1,16 @@
 aid: autobahn-therapeutics
 name: Autobahn Therapeutics
-description: Autobahn Therapeutics is a company surfaced as a portfolio company of canaan-partners, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Autobahn Therapeutics is a clinical-stage biopharmaceutical company based in San Diego,
+  California, developing regenerative medicines for central nervous system (CNS) disorders.
+  The company pairs a proprietary brain-targeting chemistry platform - which creates orally
+  administered small-molecule prodrugs designed to cross the blood-brain barrier - with
+  validated human biology and biomarker-driven development strategies. Its pipeline includes
+  elunetirom (its lead clinical program, being developed for indications such as bipolar
+  depression), ABX-101 (a next-generation CNS-active S1P molecule), and ABX-003. Autobahn is
+  backed by venture investors including Canaan Partners and Insight Partners. This profile is
+  maintained in the API Evangelist network; the company does not currently publish a public
+  developer API, so this record captures company identity and published web properties only.
 url: https://raw.githubusercontent.com/api-evangelist/autobahn-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +19,70 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biopharmaceutical
+- Biotechnology
+- Central Nervous System
+- Neuroscience
+- Drug Development
+- Regenerative Medicine
+- Small Molecule
+- Clinical Stage
+- Healthcare
+image: https://www.autobahntx.com/wp-content/themes/autobahn/assets/images/logo.svg
 apis: []
+common:
+- type: DomainSecurity
+  url: security/autobahn-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.autobahntx.com
+  name: Autobahn Therapeutics
+- type: About
+  url: https://autobahntx.com/about-us/
+  name: About Us
+- type: Pipeline
+  url: https://autobahntx.com/our-pipeline/
+  name: Our Pipeline
+- type: Science
+  url: https://autobahntx.com/our-science/
+  name: Our Science
+- type: Blog
+  url: https://autobahntx.com/news/
+  name: News
+- type: Careers
+  url: https://autobahntx.com/careers/
+  name: Careers
+- type: Support
+  url: https://autobahntx.com/contact-us/
+  name: Contact Us
+- type: PrivacyPolicy
+  url: https://autobahntx.com/privacy-policy/
+  name: Privacy Policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/autobahn-therapeutics-inc/
+  name: LinkedIn
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
